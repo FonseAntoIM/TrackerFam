@@ -1,0 +1,86 @@
+/* styles.css */
+
+.login-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.login-form h5 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.card {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+  text-align: center;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 12px 20px;
+}
+
+.container {
+  background-image: url('../images/container-background.jpg');
+  opacity: 0.7;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#home_background_im {
+  background-image: url('../images/container-background.jpg');
+  opacity: 0.7;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/*------------------------*/
+.chat-container {
+  height: 80vh;
+  border: 1px solid #ccc;
+  overflow-y: scroll;
+
+  background-image: url('../images/container_pending.jpg');
+  opacity: 0.7;
+  background-size: cover;
+  background-position: center;
+}
+
+.chat-messages {
+  padding: 10px;
+
+}
+
+/* Estilos para los mensajes de texto e imágenes */
+.message {
+  margin: 10px 0;
+}
+
+.message.mine {
+  text-align: right;
+}
+
+.image-message {
+  max-width: 100%;
+}

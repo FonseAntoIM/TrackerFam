@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Familiar</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+    <script src="../js/script.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            </div>
+        <div class="chat-messages">
+            </div>
+        <div class="chat-input">
+            <input type="text" id="messageInput" placeholder="Escribe un mensaje...">
+            <label for="imageInput">
+                <input type="file" id="imageInput" accept="image/*" style="display: none;">
+                <span>Adjuntar imagen</span>
+            </label>
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+    
+</body>
+</html>
