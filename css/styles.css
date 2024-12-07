@@ -84,3 +84,46 @@
 .image-message {
   max-width: 100%;
 }
+
+
+/* Estilos para la seccion de seguimiento*/
+.container-seg {  
+  display: grid; 
+  grid-template-columns: 30px auto 30px; 
+  grid-template-rows: 20px 60px auto min-content 20px; 
+  gap: 0px 0px; 
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". Title-seg ."
+    ". Input-seg ."
+    ". ReturnButton-seg ."
+    ". . .";
+  
+  width: auto;
+  max-height: 800px;
+
+  background-image: url('../images/container-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.Input-seg {
+  justify-self: center;
+  grid-area: Input-seg;
+  size-adjust: 100%;
+}
+
+.ReturnButton-seg {
+  justify-self: center;
+  align-self: center;
+  grid-area: ReturnButton-seg;
+}
+
+.Title-seg {
+  justify-self: center;
+  align-self: center;
+  grid-area: Title-seg;
+}
