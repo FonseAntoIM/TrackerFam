@@ -39,7 +39,7 @@
 }
 
 .container {
-  background-image: url('../images/container-background.jpg');
+  background-image: url('../assets/images/container-background.jpg');
   opacity: 0.7;
   background-size: cover;
   background-position: center;
@@ -47,7 +47,7 @@
 
 
 #home_background_im {
-  background-image: url('../images/container-background.jpg');
+  background-image: url('../assets/images/container-background.jpg');
   opacity: 0.7;
   background-size: cover;
   background-position: center;
@@ -61,7 +61,7 @@
   border: 1px solid #ccc;
   overflow-y: scroll;
 
-  background-image: url('../images/container_pending.jpg');
+  background-image: url('../assets/images/container_pending.jpg');
   opacity: 0.7;
   background-size: cover;
   background-position: center;
@@ -103,7 +103,7 @@
   width: auto;
   max-height: 800px;
 
-  background-image: url('../images/container-background.jpg');
+  background-image: url('../assets/images/container-background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
